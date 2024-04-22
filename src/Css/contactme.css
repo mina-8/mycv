@@ -1,0 +1,50 @@
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-image-contct{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    vertical-align:middle;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+}
+.profile-image{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-26%, -18%);
+    rotate: -10deg;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+.desc-about{
+    margin-top: 10px;
+}
+.cont-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.icons{
+    margin: 15px;
+}
+.text-t{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: Rubik, sans-serif;
+    font-weight: bold;
+}
+
+.links-t{
+    text-decoration: none;
+    color: #ffffff;
+}
